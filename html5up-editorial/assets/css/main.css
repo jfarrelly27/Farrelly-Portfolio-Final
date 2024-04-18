@@ -1354,6 +1354,12 @@ ul.icons {
       color: inherit; }
       ul.icons li .icon:before {
         font-size: 1.25em; }
+  
+
+        #header .icons a {
+          color: #1b344c; /* This is the color you want to apply */
+      }
+           
 
 /* Contact */
 ul.contact {
