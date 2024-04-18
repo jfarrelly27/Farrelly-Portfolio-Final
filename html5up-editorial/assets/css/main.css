@@ -2162,6 +2162,24 @@ button,
       object-position: center;
       width: 100%; }
 
+/* In your main.css file */
+.university-logo-img {
+  max-width: 450px;
+  margin-left: -200px;
+  margin-top: -40px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .university-logo-img {
+      max-width: 300px;
+      margin-left: 0;
+      
+  }
+}
+
+    
+
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
